@@ -79,9 +79,9 @@ const generetPdf = async (name,cr)=>{
 
    
     firstP.drawText(name,{
-        x:300,
+        x:270,
         y:200,
-        size:30,
+        size:25,
         font:myFont,
         color: rgb(0, 0, 0)
     })
