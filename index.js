@@ -23,7 +23,7 @@ function getImg(event){
 
      // console.log(url)
 
-     img.src = url;
+//      img.src = url;
 
      photoUrl = url;
 
