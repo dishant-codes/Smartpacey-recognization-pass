@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Smartpacey Pass Genretor</title>
+</head>
+<body>
+
+    <div class="main">
+
+   
+    <header>
+        <img src="https://www.smartpacey.com/images/logo.png" alt="logo">
+        <h1><a target="_blank" href="https://t-software4.blogspot.com/">Smartpacey Recognization Program</a></h1>
+    </header>
+
+    <main>
+        <label for="name">Enter Your Name</label>
+        <input type="text" name="name" id="name" autocapitalize="name" placeholder="Your Name" required>
+        <label for="image">Upload Photo</label> 
+        <input id="imgInput" accept="image/*" type="file">
+        <img id='img' alt="photo" width="300px"> 
+        <br><br>
+        <button id="submit">Get Certificate</button>
+    </main>
+</div>
+
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="FileSever.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
