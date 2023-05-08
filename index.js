@@ -96,6 +96,6 @@ const generetPdf = async (name,cr)=>{
 
 
     const uri = await pdfDoc.saveAsBase64({dataUri: true});
-    saveAs(uri,"Certificate.pdf",{autoBom:true})
+    saveAs(uri,name+".pdf",{autoBom:true})
     // document.querySelector("#myPDF").src = uri;
 };
